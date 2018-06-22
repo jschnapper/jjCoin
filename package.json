@@ -4,7 +4,7 @@
   "description": "a simple blockchain made through a tutorial (https://www.youtube.com/watch?v=zVqczFZr124) with some of my own additions and changes",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "Jarrod Schnapper",
   "license": "ISC",

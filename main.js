@@ -74,10 +74,7 @@ class Blockchain {
   }
 }
 
-let testCoin = new Blockchain();
-testCoin.addBlock(new Block(1, "06/21/2018", { value: 20 }));
-testCoin.addBlock(new Block(2, "06/21/2018", { value: 200 }));
-
-console.log('Is the chain valid?: ' + testCoin.isValid());
-
-console.log(JSON.stringify(testCoin, null, 4));
+module.exports = {
+  Block: Block,
+  Blockchain: Blockchain
+}
